@@ -1,0 +1,139 @@
+2025-01-12 15:04:22 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 15:04:24 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 15:04:30 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:04:30 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['fd1ac094-e037-4174-8d80-348eb849a495']
+2025-01-12 15:04:30 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id fd1ac094-e037-4174-8d80-348eb849a495: {'vectorstore_id': 'fd1ac094-e037-4174-8d80-348eb849a495', 'original_filename': 'Unknown', 'upload_timestamp': 'Unknown'}
+2025-01-12 15:04:30 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:04:37 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:04:37 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['fd1ac094-e037-4174-8d80-348eb849a495']
+2025-01-12 15:04:37 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id fd1ac094-e037-4174-8d80-348eb849a495: {'vectorstore_id': 'fd1ac094-e037-4174-8d80-348eb849a495', 'original_filename': 'Unknown', 'upload_timestamp': 'Unknown'}
+2025-01-12 15:04:37 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:04:37 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:04:37 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['fd1ac094-e037-4174-8d80-348eb849a495']
+2025-01-12 15:04:37 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id fd1ac094-e037-4174-8d80-348eb849a495: {'vectorstore_id': 'fd1ac094-e037-4174-8d80-348eb849a495', 'original_filename': 'Unknown', 'upload_timestamp': 'Unknown'}
+2025-01-12 15:04:37 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:04:37 - pdf_vector_store_manager - INFO - Received query for vectorstore_id: fd1ac094-e037-4174-8d80-348eb849a495
+2025-01-12 15:04:37 - pdf_vector_store_manager - WARNING - Vector store 'fd1ac094-e037-4174-8d80-348eb849a495' not found in memory. Attempting to load from disk.
+2025-01-12 15:04:37 - pdf_vector_store_manager - INFO - Recreating embeddings and loading vector store from disk.
+2025-01-12 15:04:38 - pdf_vector_store_manager - DEBUG - Vector store loaded from disk.
+2025-01-12 15:04:38 - pdf_vector_store_manager - INFO - Initializing Ollama model for query.
+2025-01-12 15:04:38 - pdf_vector_store_manager - DEBUG - Ollama model initialized.
+2025-01-12 15:04:38 - pdf_vector_store_manager - INFO - Creating ConversationalRetrievalChain for loaded vector store.
+2025-01-12 15:04:38 - pdf_vector_store_manager - DEBUG - ConversationalRetrievalChain created for loaded vector store.
+2025-01-12 15:04:38 - pdf_vector_store_manager - INFO - Vector store 'fd1ac094-e037-4174-8d80-348eb849a495' loaded into memory.
+2025-01-12 15:04:38 - pdf_vector_store_manager - DEBUG - Retrieved QA chain from vector store info.
+2025-01-12 15:04:38 - pdf_vector_store_manager - INFO - Executing query: Nvidia
+2025-01-12 15:04:45 - pdf_vector_store_manager - DEBUG - Query executed successfully.
+2025-01-12 15:04:56 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:04:56 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['fd1ac094-e037-4174-8d80-348eb849a495']
+2025-01-12 15:04:56 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id fd1ac094-e037-4174-8d80-348eb849a495: {'vectorstore_id': 'fd1ac094-e037-4174-8d80-348eb849a495', 'original_filename': 'Unknown', 'upload_timestamp': 'Unknown'}
+2025-01-12 15:04:56 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:04:56 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:04:56 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['fd1ac094-e037-4174-8d80-348eb849a495']
+2025-01-12 15:04:56 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id fd1ac094-e037-4174-8d80-348eb849a495: {'vectorstore_id': 'fd1ac094-e037-4174-8d80-348eb849a495', 'original_filename': 'Unknown', 'upload_timestamp': 'Unknown'}
+2025-01-12 15:04:56 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:04:56 - pdf_vector_store_manager - INFO - Received query for vectorstore_id: fd1ac094-e037-4174-8d80-348eb849a495
+2025-01-12 15:04:56 - pdf_vector_store_manager - DEBUG - Retrieved QA chain from vector store info.
+2025-01-12 15:04:56 - pdf_vector_store_manager - INFO - Executing query: Tell me about the PDF
+2025-01-12 15:04:56 - pdf_vector_store_manager - ERROR - Error during query processing: Unsupported chat history format: <class 'list'>. Full chat history: [['Nvidia', "I don't know the answer to that question."]] 
+2025-01-12 15:11:03 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 15:11:05 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 15:11:30 - pdf_vector_store_manager - INFO - Received request to upload PDF.
+2025-01-12 15:11:30 - pdf_vector_store_manager - DEBUG - Saved uploaded PDF to temporary path: temp\cbb5e2bf-7fde-4723-951d-67193c1cebd4.pdf
+2025-01-12 15:11:30 - pdf_vector_store_manager - INFO - Loading PDF using PyPDFLoader.
+2025-01-12 15:11:31 - pdf_vector_store_manager - DEBUG - Loaded 32 documents from PDF.
+2025-01-12 15:11:31 - pdf_vector_store_manager - INFO - Splitting text into chunks.
+2025-01-12 15:11:31 - pdf_vector_store_manager - DEBUG - Split documents into 32 chunks.
+2025-01-12 15:11:31 - pdf_vector_store_manager - INFO - Creating embeddings using OllamaEmbeddings.
+2025-01-12 15:11:31 - pdf_vector_store_manager - DEBUG - Embeddings created successfully.
+2025-01-12 15:11:31 - pdf_vector_store_manager - DEBUG - Generated vectorstore_id: 232a2199-0ee2-4214-b8b2-d20b3da003dd
+2025-01-12 15:11:31 - pdf_vector_store_manager - DEBUG - Persist directory for vector store: vectorstores\232a2199-0ee2-4214-b8b2-d20b3da003dd
+2025-01-12 15:11:31 - pdf_vector_store_manager - INFO - Creating Chroma vector store from documents.
+2025-01-12 15:12:41 - pdf_vector_store_manager - DEBUG - Chroma vector store created and persisted successfully.
+2025-01-12 15:12:41 - pdf_vector_store_manager - INFO - Initializing Ollama model.
+2025-01-12 15:12:41 - pdf_vector_store_manager - DEBUG - Ollama model initialized.
+2025-01-12 15:12:41 - pdf_vector_store_manager - INFO - Creating ConversationalRetrievalChain.
+2025-01-12 15:12:41 - pdf_vector_store_manager - DEBUG - ConversationalRetrievalChain created successfully.
+2025-01-12 15:12:41 - pdf_vector_store_manager - DEBUG - Metadata saved at vectorstores\232a2199-0ee2-4214-b8b2-d20b3da003dd\metadata.json
+2025-01-12 15:12:41 - pdf_vector_store_manager - INFO - Loading persisted vector store into memory.
+2025-01-12 15:12:41 - pdf_vector_store_manager - INFO - Vector store '232a2199-0ee2-4214-b8b2-d20b3da003dd' loaded into memory.
+2025-01-12 15:12:41 - pdf_vector_store_manager - DEBUG - Temporary PDF file 'temp\cbb5e2bf-7fde-4723-951d-67193c1cebd4.pdf' removed.
+2025-01-12 15:12:48 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:12:48 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:12:48 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:12:48 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:12:51 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:12:51 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:12:51 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:12:51 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:12:52 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:12:52 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:12:52 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:12:52 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:12:52 - pdf_vector_store_manager - INFO - Received query for vectorstore_id: 232a2199-0ee2-4214-b8b2-d20b3da003dd
+2025-01-12 15:12:52 - pdf_vector_store_manager - DEBUG - Retrieved QA chain from vector store info.
+2025-01-12 15:12:52 - pdf_vector_store_manager - DEBUG - Formatted chat_history: []
+2025-01-12 15:12:52 - pdf_vector_store_manager - INFO - Executing query: Nvidia
+2025-01-12 15:12:59 - pdf_vector_store_manager - DEBUG - Query executed successfully. Answer: I don't know the answer to that question.
+2025-01-12 15:13:07 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:13:07 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:13:07 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:13:07 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:13:10 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:13:10 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:13:10 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:13:10 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:13:11 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:13:11 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:13:11 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:13:11 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:13:11 - pdf_vector_store_manager - INFO - Received query for vectorstore_id: 232a2199-0ee2-4214-b8b2-d20b3da003dd
+2025-01-12 15:13:11 - pdf_vector_store_manager - DEBUG - Retrieved QA chain from vector store info.
+2025-01-12 15:13:11 - pdf_vector_store_manager - DEBUG - Formatted chat_history: [('Nvidia', "I don't know the answer to that question.")]
+2025-01-12 15:13:11 - pdf_vector_store_manager - INFO - Executing query: Tell me about this documetn
+2025-01-12 15:13:19 - pdf_vector_store_manager - DEBUG - Query executed successfully. Answer: I don't know the specific document you're referring to, but I can try to help you find it based on the context provided.
+
+From what I've gathered, the document seems to be related to NVIDIA Enterprise Support and Services. However, without more information or a clear title of the document, it's difficult for me to provide more details about its contents or purpose.
+
+If you could provide more context or clarify which document you're looking for (e.g., "NVIDIA Enterprise Service and Support"), I'd be happy to try and assist you further.
+2025-01-12 15:13:43 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 15:13:43 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 15:13:43 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 15:13:43 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 15:16:41 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 15:16:45 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 15:17:43 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 18:03:15 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 18:04:48 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores' and 'temp' exist.
+2025-01-12 18:05:07 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 18:05:07 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 18:05:07 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 18:05:07 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Received query for vectorstore_id: 232a2199-0ee2-4214-b8b2-d20b3da003dd
+2025-01-12 18:05:20 - pdf_vector_store_manager - WARNING - Vector store '232a2199-0ee2-4214-b8b2-d20b3da003dd' not found in memory. Attempting to load from disk.
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Loading vector store from disk.
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Vector store loaded from disk.
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Creating ConversationalRetrievalChain with CloudLLM.
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - ConversationalRetrievalChain created successfully.
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Vector store '232a2199-0ee2-4214-b8b2-d20b3da003dd' loaded into memory.
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Retrieved QA chain from vector store info.
+2025-01-12 18:05:20 - pdf_vector_store_manager - DEBUG - Formatted chat_history: []
+2025-01-12 18:05:20 - pdf_vector_store_manager - INFO - Executing query: what id this document
+2025-01-12 18:05:24 - pdf_vector_store_manager - ERROR - Error during query processing: Error raised by inference endpoint: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/embeddings (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B968797C80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-01-12 18:08:03 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-12 18:08:03 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: ['232a2199-0ee2-4214-b8b2-d20b3da003dd']
+2025-01-12 18:08:03 - pdf_vector_store_manager - DEBUG - Loaded metadata for vectorstore_id 232a2199-0ee2-4214-b8b2-d20b3da003dd: {'vectorstore_id': '232a2199-0ee2-4214-b8b2-d20b3da003dd', 'original_filename': 'enterprise-support-services-user-guide.pdf', 'upload_timestamp': '2025-01-12T20:12:41.776481'}
+2025-01-12 18:08:03 - pdf_vector_store_manager - INFO - Returning list of 1 vector stores.
+2025-01-12 18:08:03 - pdf_vector_store_manager - INFO - Received query for vectorstore_id: 232a2199-0ee2-4214-b8b2-d20b3da003dd
+2025-01-12 18:08:03 - pdf_vector_store_manager - DEBUG - Retrieved QA chain from vector store info.
+2025-01-12 18:08:03 - pdf_vector_store_manager - DEBUG - Formatted chat_history: []
+2025-01-12 18:08:03 - pdf_vector_store_manager - INFO - Executing query: what id this document
+2025-01-12 18:08:06 - pdf_vector_store_manager - DEBUG - Query executed successfully. Answer: This document is the NVIDIA Enterprise Support and Services User Guide, version 1.3, which was last updated in December 2023.
