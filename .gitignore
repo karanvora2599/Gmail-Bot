@@ -2,3 +2,5 @@ __pycache__
 *.pyc
 vector_stores
 vectorstore_directory
+.vercel
+vectoestores

@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+cerebras_cloud_sdk
+langchain
+langchain-community
+pydantic
+chromadb
