@@ -313,7 +313,7 @@ logger.info(f"Ensured directories '{VECTORSTORE_BASE_DIR}', '{TEMP_DIR}', and '{
 
 # Initialize Cerebras client
 cerebras_client = Cerebras(
-    api_key=os.getenv("CEREBRAS_API_KEY", "csk-e2e8kypw838rwmpjxd9nx2vn5jrertm339fnrcnt9c6p8hmx"),
+    api_key=os.getenv("CEREBRAS_API_KEY"),
 )
 
 # Initialize the custom CloudLLM
