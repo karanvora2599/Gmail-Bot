@@ -4,3 +4,4 @@ vector_stores
 vectorstore_directory
 .vercel
 vectoestores
+*.json
