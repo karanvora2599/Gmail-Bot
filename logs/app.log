@@ -137,3 +137,9 @@ If you could provide more context or clarify which document you're looking for (
 2025-01-12 18:08:03 - pdf_vector_store_manager - DEBUG - Formatted chat_history: []
 2025-01-12 18:08:03 - pdf_vector_store_manager - INFO - Executing query: what id this document
 2025-01-12 18:08:06 - pdf_vector_store_manager - DEBUG - Query executed successfully. Answer: This document is the NVIDIA Enterprise Support and Services User Guide, version 1.3, which was last updated in December 2023.
+2025-01-16 12:04:57 - pdf_vector_store_manager - INFO - Ensured directories 'vectorstores', 'temp', and 'credentials' exist.
+2025-01-16 12:11:55 - pdf_vector_store_manager - INFO - Received request to fetch the latest email.
+2025-01-16 12:11:55 - pdf_vector_store_manager - ERROR - Error fetching latest email: [Errno 2] No such file or directory: 'credentials\\client_secret.json'
+2025-01-16 12:15:36 - pdf_vector_store_manager - INFO - Received request to list all vector stores.
+2025-01-16 12:15:36 - pdf_vector_store_manager - DEBUG - Found vectorstore_ids: []
+2025-01-16 12:15:36 - pdf_vector_store_manager - INFO - Returning list of 0 vector stores.
